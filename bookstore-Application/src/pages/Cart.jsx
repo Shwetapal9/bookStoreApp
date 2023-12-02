@@ -8,7 +8,11 @@ const Cart = () => {
   return (
     <>
       <Navbar />
-      <h1>Cart Items -{cartItems.length} </h1>
+      {cartItems.length > 1 ? (
+        <h1>Cart Items- {cartItems.length}</h1>
+      ) : (
+        <h1>Your Cart is Empty</h1>
+      )}
       <div className="item-container">
         {cartItems.map((item) => {
           return <CartItem key={item.id} {...item} />;
