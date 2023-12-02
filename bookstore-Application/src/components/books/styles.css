@@ -1,0 +1,62 @@
+.book {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.book-title > h2 {
+  font-size: 1rem;
+}
+.book-cover > img {
+  width: 250px;
+  height: 250px;
+}
+.book-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book-info {
+  padding: 0px 0.5rem;
+  gap: 0.5rem;
+}
+.book-info > span {
+  width: 30%;
+  height: 10%;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.1rem;
+  background-color: burlywood;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.book-info > button {
+  width: 30%;
+  height: 10%;
+  font-weight: 700;
+  font-size: 0.7rem;
+  padding: 0.1rem;
+  background-color: rgb(140, 179, 81);
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-info > a {
+  width: 30%;
+}
+
+.detail {
+  width: 100%;
+  height: 10%;
+  font-weight: 700;
+  font-size: 0.7rem;
+  padding: 0.1rem;
+  background-color: rgb(140, 179, 81);
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
